@@ -1,0 +1,8 @@
+---
+name: kibana-5
+description: |
+  This is the description
+version: 0.0.1
+category: Examples
+maintainer: Andrew Myers
+license: BSD
