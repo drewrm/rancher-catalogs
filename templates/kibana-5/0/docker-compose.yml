@@ -23,7 +23,7 @@ services:
       io.rancher.container.hostname_override: container_name
       io.rancher.sidekicks: nginx-proxy-conf,kibana5
       external_links:
-	- ${elasticsearch_source}:elasticsearch
+        - ${elasticsearch_source}:elasticsearch
   kibana5:
     restart: always
     tty: true
@@ -33,4 +33,4 @@ services:
     environment:
       ELASTICSEARCH_URL: "http://elasticsearch:9200"
       labels:
-	io.rancher.container.hostname_override: container_name
+        io.rancher.container.hostname_override: container_name
